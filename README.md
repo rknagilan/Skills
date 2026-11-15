@@ -100,3 +100,32 @@ npx skills add remotion-dev/skills
 - [glebis/claude-skills](https://github.com/glebis/claude-skills)
 - [lyndonkl/claude](https://github.com/lyndonkl/claude)
 - [Remotion skills docs](https://www.remotion.dev/skills)
+
+---
+
+## 6. Skills from the Instagram creator @igao.ia (Reels analysis)
+
+Instagram cannot be opened from the cloud session, so this list comes from the 9 video covers
+(the titles are in Portuguese) plus a web search for each tool. ✅ = confirmed tool, 🔶 = best guess.
+
+| # | Video title (Portuguese → English) | Views | Skill / tool | How to get it |
+|---|---|---|---|---|
+| 1 | "Essa config ultrapassou o próprio Claude Code" → *This config beat Claude Code itself* | 40.6K | ✅ **Everything Claude Code (ECC)** — the yellow "E" logo. Big pack of agents, skills, hooks, rules | `/plugin marketplace add affaan-m/everything-claude-code` |
+| 2 | "Por que seus Reels não viralizam — o Claude te mostra" → *Why your Reels don't go viral* | 11.8K | 🔶 Reel analysis: Claude watches your Reel and checks hook (gancho), retention and the second where people leave | `watch-video` plugin + Social Media Skills `viral-reverse-engineering`, `content-audit` |
+| 3 | "Claude copia qualquer vídeo cena por cena" → *Claude copies any video scene by scene* | 59.5K | 🔶 Video → storyboard → remake. Claude breaks a video into scenes, then rebuilds it | `watch-video` / `video-to-code-skill` + **Remotion** |
+| 4 | "Por que ninguém assiste seus vídeos?" → *Why does nobody watch your videos?* ("3 iguais", "Modelo 07") | 12K | 🔶 Hook / template tester: makes many hook versions and picks the best one | Social Media Skills `hook-writer`, `experimentation-and-ab-testing` |
+| 5 | "Crie o seu clone virtual com IA, de graça" → *Make your AI virtual clone for free* | 24.6K | ✅ **LongCat-Video-Avatar 1.5** (Meituan, open source). A talking avatar from 1 photo + audio | github.com/meituan-longcat/LongCat-Video (needs a strong GPU) |
+| 6 | "Meu Claude edita à meia-noite enquanto eu durmo" → *My Claude edits at midnight while I sleep* | 9.1K | 🔶 "Máquina de Reels" (Reels Machine): a scheduled Claude Code job. It finds viral Reels → writes script → narration → edit → review | Claude Code scheduled tasks / `/loop` + the skills below |
+| 7 | "A skill que descobre o próximo viral no Claude, grátis" → *The skill that finds the next viral trend* ("Últimos 30 dias", ⭐66.3K) | 18.3K | ✅ **last30days-skill** by mvanhorn. Searches Reddit, X, YouTube, TikTok, Instagram and the web from the last 30 days | `/plugin marketplace add mvanhorn/last30days-skill` |
+| 8 | "Um Google Meu Negócio dentro do ChatGPT" → *Google My Business inside ChatGPT* | 16.1K | 🔶 A Google Business Profile connector/app for ChatGPT (it is not a Claude skill) | — |
+| 9 | "O Claude transforma sua ideia em um Reels" → *Claude turns your idea into a Reel* | 21.2K | 🔶 The same "máquina-de-reels" project: idea → script → voice → video | **IT Reelsmaker**, **Remotion**, **Motion Reel**, Social Media Skills `reels-script` |
+
+### Build your own "Reels Machine" (step by step)
+1. **Find a trend** → `last30days-skill`
+2. **Study viral videos** → `watch-video` + `viral-reverse-engineering`
+3. **Write the script** → `reels-script`, `hook-writer`
+4. **Voice** → `ai-voiceover` (or ElevenLabs)
+5. **Make the video** → **Remotion** / **IT Reelsmaker** / **Motion Reel**
+6. **Avatar (optional)** → LongCat-Video-Avatar
+7. **Post** → Posty / Ayrshare
+8. **Run every night** → a Claude Code scheduled task
