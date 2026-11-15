@@ -129,3 +129,12 @@ Instagram cannot be opened from the cloud session, so this list comes from the 9
 6. **Avatar (optional)** → LongCat-Video-Avatar
 7. **Post** → Posty / Ayrshare
 8. **Run every night** → a Claude Code scheduled task
+
+### About the creator
+- @igao.ia is **Igor Henrique** (Brazil, Portuguese content).
+- His paid product: **Máquina de Reels**: https://maquina.igorhenrique.com/ (a plug-and-play file for Claude Code / Codex that edits Reels: cuts, captions, animations).
+- Free projects with a similar idea on GitHub (not his):
+  - [Fabio-araujo-silva/maquina-de-reels](https://github.com/Fabio-araujo-silva/maquina-de-reels): prompt → vertical reel (script, voice, 3D, render)
+  - [gt-moraes/entusiasta-motion](https://github.com/gt-moraes/entusiasta-motion): Claude Code skill that edits full Reels with Remotion
+  - [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill): 13 free Instagram skills (hooks, viral research, captions)
+  - [masterpz/skill-edicao-reels](https://github.com/masterpz/skill-edicao-reels), [Felpborges/skill-reel](https://github.com/Felpborges/skill-reel), [lucalves3/skill-de-roteiro-reels](https://github.com/lucalves3/skill-de-roteiro-reels)
