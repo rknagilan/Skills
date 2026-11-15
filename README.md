@@ -138,3 +138,23 @@ Instagram cannot be opened from the cloud session, so this list comes from the 9
   - [gt-moraes/entusiasta-motion](https://github.com/gt-moraes/entusiasta-motion): Claude Code skill that edits full Reels with Remotion
   - [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill): 13 free Instagram skills (hooks, viral research, captions)
   - [masterpz/skill-edicao-reels](https://github.com/masterpz/skill-edicao-reels), [Felpborges/skill-reel](https://github.com/Felpborges/skill-reel), [lucalves3/skill-de-roteiro-reels](https://github.com/lucalves3/skill-de-roteiro-reels)
+
+### Igor Henrique's website (igorhenrique.com): what it offers
+Found through search results (the site itself is blocked from the cloud session).
+
+| Page | What it is | Price |
+|---|---|---|
+| igorhenrique.com | Link page: IA Academy, Octuz AI, free prompt group, YouTube lessons | free |
+| **maquina.igorhenrique.com**: *Máquina de Reels Automáticos* | Plug-and-play file for **Claude Code or Codex** that edits Reels from a Portuguese prompt (cuts, captions, animations) + 7 short lessons. Bonuses: **cover factory** (capas) and **animation library** | R$ 97 |
+| ia.igorhenrique.com / club.igorhenrique.com: *IA Academy* | Course: AI apps, virtual influencers, AI automation | R$ 97 – 197 |
+| mentoria.igorhenrique.com | Marketing funnel course with AI | paid |
+
+The site does **not** publish a public list of the skills inside the Máquina de Reels. It is a paid zip file.
+
+### Free alternatives that do the same job (open source)
+- [emersonsvale/reels-em-codigo](https://github.com/emersonsvale/reels-em-codigo): script → animated Reel with voice, karaoke captions, end card
+- [javiggil/reels-con-ia](https://github.com/javiggil/reels-con-ia): cut silences, 4K captions and animations
+- [clabza16/skills-edicion](https://github.com/clabza16/skills-edicion): zooms, karaoke subtitles, titles, motion effects, sound
+- [gouveaero/claude-skills-content](https://github.com/gouveaero/claude-skills-content): carousels, Remotion video, weekly plan, trend research
+- [augustollgarcia-max reels-automatico PR](https://github.com/augustollgarcia-max/ui-ux-pro-max-skill/pull/76): FFmpeg + Whisper + Remotion reels machine
+- [Artem Novitckii: 6 editing skills](https://novitckii.com/resources/editing-skills/) · [6 animation skills](https://novitckii.com/resources/animation-skills/)
