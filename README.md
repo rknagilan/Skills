@@ -1,5 +1,7 @@
 # Skills Catalog — Instagram, YouTube, Reverse Engineering, Audio, Animation
 
+> 🌍 **NEW: index of 12,000+ Claude skills from all over GitHub → [skills-index/](skills-index/README.md)** · 🔥 [Trending](skills-index/TRENDING.md) · ✅ 67 skills installed in [.claude/skills](.claude/skills)
+
 This is a list of Claude skills and plugins that I found for each topic (November 2026).
 Most of them are community plugins. Read a skill's SKILL.md before you use it.
 
