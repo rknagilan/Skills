@@ -2,6 +2,7 @@
 # Run in PowerShell:
 #   irm https://raw.githubusercontent.com/rknagilan/skills/ccr-21cbc605-g8n41d/install-all-skills-windows.ps1 | iex
 $ErrorActionPreference = "Stop"
+$ProgressPreference = "SilentlyContinue"
 $Branch = "ccr-21cbc605-g8n41d"
 $Repo   = "https://github.com/rknagilan/skills.git"
 $Home2  = Join-Path $env:USERPROFILE "AutoClip"

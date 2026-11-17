@@ -5,6 +5,7 @@
 # Run in PowerShell:
 #   irm https://raw.githubusercontent.com/rknagilan/skills/ccr-21cbc605-g8n41d/install-clipping-apps-windows.ps1 | iex
 $ErrorActionPreference = "Continue"
+$ProgressPreference = "SilentlyContinue"   # the progress bar makes downloads very slow in Windows PowerShell
 $Apps = Join-Path $env:USERPROFILE "ClippingApps"
 New-Item -ItemType Directory -Force -Path $Apps | Out-Null
 

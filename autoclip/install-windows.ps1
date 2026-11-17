@@ -1,5 +1,6 @@
 # AutoClip installer for Windows. Right-click this file > "Run with PowerShell".
 $ErrorActionPreference = "Stop"
+$ProgressPreference = "SilentlyContinue"
 Set-Location $PSScriptRoot
 Write-Host "1/5 Installing tools (Python, ffmpeg, yt-dlp, Node.js, Git)..." -ForegroundColor Cyan
 winget install -e --id Python.Python.3.12 --accept-source-agreements --accept-package-agreements
