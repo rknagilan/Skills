@@ -25,3 +25,11 @@ Clips of other streamers belong to them. To stay safe and keep your account:
 
 ## Tools you need on your computer
 `ffmpeg`, `yt-dlp`, Python 3, and for some skills Node.js (Remotion/HyperFrames). A GPU helps but is not required.
+
+## Desktop clipping apps (not skills): from the Threads post "GTA 6 open-source clipping tools"
+| App | Type | Needs | Install |
+|---|---|---|---|
+| OpenShorts | web app + skill | Docker, 8GB RAM, Gemini key | `openshorts` skill already installed |
+| Cutawan | desktop app (MIT) | optional AI key; local captions free | `install-clipping-apps-windows.ps1` |
+| SupoClip | web app (AGPL-3.0) | Docker, AssemblyAI key, one LLM key | `install-clipping-apps-windows.ps1` |
+| Clips Kitty | desktop app (Windows) | none (local) | download page opened by the script |
