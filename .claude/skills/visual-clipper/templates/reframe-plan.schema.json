@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "visual-clipper reframe plan",
+  "description": "The camera plan Claude writes after watching a clip's frames. Crop-window keyframes that reframe_render.py slides over the landscape source to produce a moving 9:16 vertical short.",
+  "type": "object",
+  "required": ["clip_num", "clip_start", "clip_end", "keyframes"],
+  "properties": {
+    "clip_num": { "type": "integer", "description": "1-based clip index in this project" },
+    "clip_start": { "type": "number", "description": "clip start in SOURCE seconds" },
+    "clip_end": { "type": "number", "description": "clip end in SOURCE seconds" },
+    "rationale": { "type": "string", "description": "one line: why these camera moves serve this clip" },
+    "keyframes": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Ordered by t. Each is the crop-window center+zoom at a moment, t in CLIP-LOCAL seconds (0 = clip start). Hold a value by repeating it at two times; move by changing it between two times.",
+      "items": {
+        "type": "object",
+        "required": ["t", "cx", "cy", "zoom"],
+        "properties": {
+          "t":    { "type": "number", "description": "clip-local seconds (0 = start of clip)" },
+          "cx":   { "type": "number", "minimum": 0, "maximum": 1, "description": "crop-window center X as fraction of source width (0=left, 1=right)" },
+          "cy":   { "type": "number", "minimum": 0, "maximum": 1, "description": "crop-window center Y as fraction of source height (0=top, 1=bottom)" },
+          "zoom": { "type": "number", "minimum": 1.0, "maximum": 2.5, "description": "1.0 = widest 9:16 crop that fits; >1 punches in tighter" },
+          "note": { "type": "string", "description": "optional: what's happening here (e.g. 'punch in on emphasis')" }
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "clip_num": 1,
+      "clip_start": 73.2,
+      "clip_end": 91.6,
+      "rationale": "Speaker is camera-left through the setup, gestures center on the payoff line; punch in to sell the reveal.",
+      "keyframes": [
+        { "t": 0.0,  "cx": 0.38, "cy": 0.46, "zoom": 1.0,  "note": "speaker camera-left, wide" },
+        { "t": 6.0,  "cx": 0.38, "cy": 0.46, "zoom": 1.0,  "note": "hold through setup" },
+        { "t": 8.5,  "cx": 0.50, "cy": 0.44, "zoom": 1.35, "note": "punch in on the key line" },
+        { "t": 14.0, "cx": 0.50, "cy": 0.44, "zoom": 1.35, "note": "hold the close-up" },
+        { "t": 18.4, "cx": 0.50, "cy": 0.50, "zoom": 1.0,  "note": "pull back to land the reveal" }
+      ]
+    }
+  ]
+}

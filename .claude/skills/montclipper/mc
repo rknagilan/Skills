@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# MontClipper launcher: runs mc.py with MontClipper's own Python (Mac, Linux, Windows Git Bash).
+H="${MONTCLIPPER_HOME:-$HOME/MontClipper}"
+export MONTCLIPPER_HOME="$H" PYTHONUTF8=1 PYTHONIOENCODING=utf-8
+PY="$H/tools-audio/bin/python"
+[ -x "$PY" ] || PY="$H/tools-audio/Scripts/python.exe"
+exec "$PY" "$(cd "$(dirname "$0")" && pwd)/mc.py" "$@"

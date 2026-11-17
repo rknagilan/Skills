@@ -12,3 +12,13 @@ Copyright stays with the original authors. Check each repo for updates.
 | instagram-download, content-machine, reels-vhoe, newsroom | https://github.com/gouveaero/claude-skills-content | MIT |
 | last30days | https://github.com/mvanhorn/last30days-skill | MIT |
 | all reverse-engineering, YouTube, audio, animation and video skills not listed above | https://github.com/sickn33/antigravity-awesome-skills | MIT |
+| shorts-clipper, social-publish, youtube-seo | https://github.com/syeed-mahmud/cutsmith | MIT |
+| vodkit | https://github.com/valheru7/vodkit | MIT |
+| montclipper | https://github.com/montorox/montclipper | MIT |
+| video-to-shorts-skill, ai-clipping-skill | https://github.com/social-media-skills | MIT |
+| visual-clipper | https://github.com/zackseal89/Claudeclipping-skill | MIT |
+| openshorts | https://github.com/mutonby/openshorts | MIT |
+| editing-gameplay-montages | https://github.com/gustavomenani/editing-gameplay-montages | MIT |
+| highlight-reel | https://github.com/aeonhem/claude-highlight-reel | MIT |
+| picture-stack, shape-shift, trial-reels, behind-the-person, storytelling, split-screen, explainer, visual-notes, ranking-list, orbit-reel, scene-switch | https://github.com/artemnovitckii/claude-editing-skills | MIT |
+| clipper-clip, clipper-find (renamed from clip, find) | https://github.com/gouthamk16/clipper | MIT |
