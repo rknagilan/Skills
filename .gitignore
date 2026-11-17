@@ -1,0 +1,4 @@
+
+# Unlicensed third-party skills: install with scripts/install-extra-skills.sh
+.claude/skills/upload-post/
+.claude/skills/twitch-clips/
