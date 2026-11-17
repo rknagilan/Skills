@@ -1,0 +1,11 @@
+{
+  "instagram_handle": "@CHANGE_ME",
+  "ntfy_server": "https://ntfy.sh",
+  "ntfy_topic": "CHANGE_ME-will-be-set-by-install",
+  "ntfy_reply_topic": "CHANGE_ME-will-be-set-by-install",
+  "check_every_minutes": 2,
+  "chunk_minutes": 20,
+  "max_posts_per_day": 6,
+  "claude_command": "claude",
+  "permission_mode": "acceptEdits"
+}

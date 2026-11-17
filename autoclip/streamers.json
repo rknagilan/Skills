@@ -1,0 +1,26 @@
+[
+  {
+    "enabled": false,
+    "channel": "STREAMER_1_CHANGE_ME",
+    "platform": "twitch",
+    "credit_handle": "streamer1_instagram",
+    "campaign_name": "Campaign name from Whop",
+    "brief_file": "autoclip/campaigns/streamer1/brief.txt"
+  },
+  {
+    "enabled": false,
+    "channel": "STREAMER_2_CHANGE_ME",
+    "platform": "kick",
+    "credit_handle": "streamer2_instagram",
+    "campaign_name": "Campaign name from Content Rewards",
+    "brief_file": "autoclip/campaigns/streamer2/brief.txt"
+  },
+  {
+    "enabled": false,
+    "channel": "STREAMER_3_CHANGE_ME",
+    "platform": "youtube",
+    "credit_handle": "streamer3_instagram",
+    "campaign_name": "Campaign name",
+    "brief_file": "autoclip/campaigns/streamer3/brief.txt"
+  }
+]
